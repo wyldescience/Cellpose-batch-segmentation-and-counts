@@ -7,3 +7,5 @@ Additionally, the script also contains some functions for pulling information fr
 
 I1_F1_O20_SWI_R1_13-09-23 where I1 = isoline, F1 = generation, O = age, could be Y, 20 = temperature (could be 25 degrees), SWI = treatment (could be CON), R1 = replicate, and date. The script collects this data and adds the output to a csv to efficiently create a complete data set for further analysis.
 The labels created from the cellpose model are saved to an output directly as images but are also saved overlayed over the original images (so one can inspect the result easily). 
+
+The images I used for this script were initially segmented using [Meta's Segment Anything](https://github.com/facebookresearch/segment-anything) model to remove background from the shape of interest (In this case the filter paper containing springtail eggs). Please see my repository [here](https://github.com/wyldescience/Segment-anything-batch-process/wiki) if of interest or use to you. 
